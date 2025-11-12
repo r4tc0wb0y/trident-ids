@@ -1,0 +1,34 @@
+# Example data paths configuration for trident-ids
+# Copy this to data_paths.yml and update with your actual paths
+
+# Raw data directories
+raw_data:
+  pcap_dir: "/path/to/pcap/files"
+  netflow_dir: "/path/to/netflow/files"
+  labels_dir: "/path/to/labels"
+
+# Processed data directories
+processed_data:
+  features_dir: "data/processed/features"
+  graphs_dir: "data/processed/graphs"
+  temporal_dir: "data/processed/temporal"
+
+# Model outputs
+models:
+  checkpoint_dir: "models/checkpoints"
+  saved_models_dir: "models/saved"
+
+# Evaluation outputs
+evaluation:
+  results_dir: "results/evaluation"
+  metrics_dir: "results/metrics"
+
+# Visualization outputs
+visualization:
+  plots_dir: "results/plots"
+  figures_dir: "results/figures"
+
+# Logging
+logging:
+  log_dir: "logs"
+  log_level: "INFO"
