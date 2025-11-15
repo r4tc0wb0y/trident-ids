@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+data/
+configs/data_paths.yml
+outputs/
+models/
+figures/
+data/
+configs/data_paths.yml
+outputs/
+models/
+figures/
